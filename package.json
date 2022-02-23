@@ -1,0 +1,41 @@
+{
+  "name": "preparchives",
+  "version": "0.0.1",
+  "description": "Trouvez les annales de tous les concours prépas",
+  "productName": "preparchives",
+  "author": "ThomasTraineau <thomas_traineau@tutanota.com>",
+  "private": true,
+  "scripts": {
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.0.0",
+    "core-js": "^3.6.5",
+    "jQuery": "npm:jquery@^3.6.0",
+    "jquery": "^3.6.0",
+    "jsdom": "^19.0.0",
+    "location": "^0.0.1",
+    "navigator": "^1.0.1",
+    "quasar": "^2.0.0",
+    "xmlhttprequest": "^1.8.0"
+  },
+  "devDependencies": {
+    "@quasar/app": "^3.0.0"
+  },
+  "browserslist": [
+    "last 10 Chrome versions",
+    "last 10 Firefox versions",
+    "last 4 Edge versions",
+    "last 7 Safari versions",
+    "last 8 Android versions",
+    "last 8 ChromeAndroid versions",
+    "last 8 FirefoxAndroid versions",
+    "last 10 iOS versions",
+    "last 5 Opera versions"
+  ],
+  "engines": {
+    "node": ">= 12.22.1",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  }
+}

@@ -1,0 +1,47 @@
+// app global css in SCSS form
+@font-face {
+  font-family: 'BloggerSans';
+	src: url(./fonts/BloggerSans.ttf);
+}
+
+body{
+	background: linear-gradient(45deg,#0a8232, #065570);
+	font-family: BloggerSans;
+	font-weight: bold;
+}
+.website-title{
+	font-size: 3em;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.general-button{
+  color: white;
+  font-size: 1.2em;
+  background-color: #14157f;
+  padding: 10px;
+  border-radius: 10px;
+  transition: 0.4s;
+
+}
+.general-button:hover {
+  background-color: #7476de;
+  cursor: pointer;
+  color: black;
+  box-shadow: 0 0 5px;
+}
+.welcome {
+  display: flex;
+  justify-content: center;
+  font-size: 1.5em;
+	margin-bottom: 20px;
+}
+.general-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 20px;
+	div{
+		margin: 20px;
+	}
+}

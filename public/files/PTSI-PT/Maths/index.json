@@ -1,0 +1,34 @@
+{
+	"2021": [
+		{
+			"epreuves": [
+				{
+					"name": "Épreuve A",
+					"sujet": "path",
+					"corrigé": "path",
+					"credit": {
+						"name": "Prof1",
+						"url": "lien vers son blog"
+					},
+					"tags": [
+						"Algèbre",
+						"Probabilités"
+					]
+				},
+				{
+					"name": "Épreuve B",
+					"sujet": "path",
+					"corrigé": "path",
+					"credit": {
+						"name": "Prof1",
+						"url": "lien vers son blog"
+					},
+					"tags": [
+						"Algèbre",
+						"Géométrie"
+					]
+				}
+			]
+		}
+	]
+}
